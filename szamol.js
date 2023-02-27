@@ -2,7 +2,7 @@ function szamol() {
     let m = document.getElementById("magassag").value / 100;
     let kg = +document.getElementById("tomeg").value;
     
-    if (m < 0.6 || m > 2.2 || kg < 20 || kg > 200) {
+    if (m < 1.2 || m > 2.2 || kg < 40 || kg > 200) {
         document.getElementById("kiiras").innerHTML = "Hibás adatok!";
         return;
     }
